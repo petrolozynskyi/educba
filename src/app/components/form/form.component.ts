@@ -27,7 +27,8 @@ export class FormComponent {
     phoneNumber: new FormControl('', [
       Validators.required,
       Validators.pattern(phoneNumberPattern)
-    ])
+    ]),
+    email: new FormControl(''),
   });
 
 
