@@ -1,0 +1,71 @@
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form h4 {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+form div {
+  margin-bottom: 0.2em;
+}
+
+form label {
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  opacity: 0.75;
+}
+
+form input {
+  width: calc(100% - 22px);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 1em;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.text-danger {
+  color: red;
+  font-size: 0.875em;
+}
+
+.required-label::after {
+  content: " *";
+  color: red;
+}
+
+button {
+  border: 2px solid grey; /* Border color and width */
+  border-radius: 2px; /* Rounded corners */
+  color: grey; /* Text color */
+  padding: 15px 60px; /* Padding */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  display: inline-block; /* Ensure button behaves as expected */
+  margin-top: 20px; /* Margin from the top */
+  background-color: white;
+}
+
+button:hover {
+  border-color: #218838; /* New border color on hover */
+}
